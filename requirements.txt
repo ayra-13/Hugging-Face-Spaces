@@ -1,0 +1,6 @@
+transformers
+huggingface-hub
+flask
+joblib
+pandas
+scikit-learn
