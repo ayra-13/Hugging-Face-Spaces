@@ -32,7 +32,7 @@ jobs:
 
     - name: Deploy to Hugging Face Spaces
       env:
-        HF_TOKEN: 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
+        HF_TOKEN: <...hugging-face token.....>
       run: |
         pip install huggingface_hub
         huggingface-cli login --token $HF_TOKEN
